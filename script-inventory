@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#DESCRIPTION: System inventory
+
+#AUTHOR: Sharifa July 23th 2020
+
+lscpu
+
+uname -r
+
+free -m
+
+lsblk
+
+cat /etc/*release
+
+nproc
